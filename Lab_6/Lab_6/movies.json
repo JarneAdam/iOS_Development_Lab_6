@@ -1,0 +1,179 @@
+{ "movies" : [
+    {
+        "title": "The Shawshank Redemption",
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "actors": [
+            {"firstName": "Tim", "lastName": "Robbins", "birthday": "1958-10-16"},
+            {"firstName": "Morgan", "lastName": "Freeman", "birthday": "1937-06-01"},
+            {"firstName": "Bob", "lastName": "Gunton", "birthday": "1945-11-15"}
+        ],
+        "director": {"firstName": "Frank", "lastName": "Darabont", "moviesDirected": ["The Shawshank Redemption"]},
+        "releaseDate": "1994-09-23"
+    },
+    {
+        "title": "The Godfather",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "actors": [
+            {"firstName": "Marlon", "lastName": "Brando", "birthday": "1924-04-03"},
+            {"firstName": "Al", "lastName": "Pacino", "birthday": "1940-04-25"},
+            {"firstName": "James", "lastName": "Caan", "birthday": "1940-03-26"}
+        ],
+        "director": {"firstName": "Francis Ford", "lastName": "Coppola", "moviesDirected": ["The Godfather"]},
+        "releaseDate": "1972-03-24"
+    },
+    {
+        "title": "The Dark Knight",
+        "description": "When the menace known as The Joker emerges, Batman must confront his own psychological demons while dealing with the chaos he brings to Gotham City.",
+        "actors": [
+            {"firstName": "Christian", "lastName": "Bale", "birthday": "1974-01-30"},
+            {"firstName": "Heath", "lastName": "Ledger", "birthday": "1979-04-04"},
+            {"firstName": "Aaron", "lastName": "Eckhart", "birthday": "1968-03-12"}
+        ],
+        "director": {"firstName": "Christopher", "lastName": "Nolan", "moviesDirected": ["The Dark Knight", "Inception"]},
+        "releaseDate": "2008-07-14"
+    },
+    {
+        "title": "Inception",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "actors": [
+            {"firstName": "Leonardo", "lastName": "DiCaprio", "birthday": "1974-11-11"},
+            {"firstName": "Joseph", "lastName": "Gordon-Levitt", "birthday": "1981-02-17"},
+            {"firstName": "Ellen", "lastName": "Page", "birthday": "1987-02-21"}
+        ],
+        "director": {"firstName": "Christopher", "lastName": "Nolan", "moviesDirected": ["The Dark Knight", "Inception"]},
+        "releaseDate": "2010-07-08"
+    },
+    {
+        "title": "Pulp Fiction",
+        "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "actors": [
+            {"firstName": "John", "lastName": "Travolta", "birthday": "1954-02-18"},
+            {"firstName": "Uma", "lastName": "Thurman", "birthday": "1970-04-29"},
+            {"firstName": "Samuel L.", "lastName": "Jackson", "birthday": "1948-12-21"}
+        ],
+        "director": {"firstName": "Quentin", "lastName": "Tarantino", "moviesDirected": ["Pulp Fiction"]},
+        "releaseDate": "1994-10-14"
+    },
+    {
+        "title": "Forrest Gump",
+        "description": "The presidencies of Kennedy through Nixon, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.",
+        "actors": [
+            {"firstName": "Tom", "lastName": "Hanks", "birthday": "1956-07-09"},
+            {"firstName": "Robin", "lastName": "Wright", "birthday": "1966-04-08"},
+            {"firstName": "Gary", "lastName": "Sinise", "birthday": "1955-03-17"}
+        ],
+        "director": {"firstName": "Robert", "lastName": "Zemeckis", "moviesDirected": ["Forrest Gump"]},
+        "releaseDate": "1994-07-06"
+    },
+    {
+        "title": "The Matrix",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+        "actors": [
+            {"firstName": "Keanu", "lastName": "Reeves", "birthday": "1964-09-02"},
+            {"firstName": "Laurence", "lastName": "Fishburne", "birthday": "1961-07-30"},
+            {"firstName": "Carrie-Anne", "lastName": "Moss", "birthday": "1967-08-21"}
+        ],
+        "director": {"firstName": "The", "lastName": "Wachowskis", "moviesDirected": ["The Matrix"]},
+        "releaseDate": "1999-03-31"
+    },
+    {
+        "title": "Schindler's List",
+        "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "actors": [
+            {"firstName": "Liam", "lastName": "Neeson", "birthday": "1952-06-07"},
+            {"firstName": "Ben", "lastName": "Kingsley", "birthday": "1943-12-31"},
+            {"firstName": "Ralph", "lastName": "Fiennes", "birthday": "1962-12-22"}
+        ],
+        "director": {"firstName": "Steven", "lastName": "Spielberg", "moviesDirected": ["Schindler's List"]},
+        "releaseDate": "1993-11-30"
+    },
+    {
+        "title": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "actors": [
+            {"firstName": "Matthew", "lastName": "McConaughey", "birthday": "1969-11-04"},
+            {"firstName": "Anne", "lastName": "Hathaway", "birthday": "1982-11-12"},
+            {"firstName": "Jessica", "lastName": "Chastain", "birthday": "1977-03-24"}
+        ],
+        "director": {"firstName": "Christopher", "lastName": "Nolan", "moviesDirected": ["Interstellar"]},
+        "releaseDate": "2014-11-05"
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "description": "A quirky comedy about the misadventures of a hotel concierge and his protege.",
+        "actors": [
+            {"firstName": "Ralph", "lastName": "Fiennes", "birthday": "1962-12-22"},
+            {"firstName": "Tony", "lastName": "Revolori", "birthday": "1996-04-28"},
+            {"firstName": "Adrien", "lastName": "Brody", "birthday": "1973-04-14"}
+        ],
+        "director": {"firstName": "Wes", "lastName": "Anderson", "moviesDirected": ["The Grand Budapest Hotel"]},
+        "releaseDate": "2014-02-06"
+    },
+    {
+        "title": "La La Land",
+        "description": "A romantic musical about a jazz musician and an aspiring actress who meet and fall in love in Los Angeles.",
+        "actors": [
+            {"firstName": "Ryan", "lastName": "Gosling", "birthday": "1980-11-12"},
+            {"firstName": "Emma", "lastName": "Stone", "birthday": "1988-11-06"},
+            {"firstName": "John", "lastName": "Legend", "birthday": "1978-12-28"}
+        ],
+        "director": {"firstName": "Damien", "lastName": "Chazelle", "moviesDirected": ["La La Land"]},
+        "releaseDate": "2016-12-09"
+    },
+    {
+        "title": "The Revenant",
+        "description": "A frontiersman on a fur trading expedition fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+        "actors": [
+            {"firstName": "Leonardo", "lastName": "DiCaprio", "birthday": "1974-11-11"},
+            {"firstName": "Tom", "lastName": "Hardy", "birthday": "1977-09-15"},
+            {"firstName": "Domhnall", "lastName": "Gleeson", "birthday": "1983-05-12"}
+        ],
+        "director": {"firstName": "Alejandro", "lastName": "Iñárritu", "moviesDirected": ["The Revenant"]},
+        "releaseDate": "2015-12-16"
+    },
+    {
+        "title": "Black Panther",
+        "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+        "actors": [
+            {"firstName": "Chadwick", "lastName": "Boseman", "birthday": "1976-11-29"},
+            {"firstName": "Michael", "lastName": "B. Jordan", "birthday": "1987-02-09"},
+            {"firstName": "Lupita", "lastName": "Nyong'o", "birthday": "1983-03-01"}
+        ],
+        "director": {"firstName": "Ryan", "lastName": "Coogler", "moviesDirected": ["Black Panther"]},
+        "releaseDate": "2018-01-29"
+    },
+    {
+        "title": "The Shape of Water",
+        "description": "In a 1960s research facility, a mute janitor forms a unique relationship with an amphibious creature being held in captivity.",
+        "actors": [
+            {"firstName": "Sally", "lastName": "Hawkins", "birthday": "1976-04-27"},
+            {"firstName": "Michael", "lastName": "Shannon", "birthday": "1974-08-07"},
+            {"firstName": "Octavia", "lastName": "Spencer", "birthday": "1970-05-25"}
+        ],
+        "director": {"firstName": "Guillermo", "lastName": "del Toro", "moviesDirected": ["The Shape of Water"]},
+        "releaseDate": "2017-08-31"
+    },
+    {
+        "title": "Joker",
+        "description": "A mentally troubled comedian embarks on a downward spiral of revolution and bloody crime in Gotham City.",
+        "actors": [
+            {"firstName": "Joaquin", "lastName": "Phoenix", "birthday": "1974-10-28"},
+            {"firstName": "Robert", "lastName": "De Niro", "birthday": "1943-08-17"},
+            {"firstName": "Zazie", "lastName": "Beetz", "birthday": "1991-06-01"}
+        ],
+        "director": {"firstName": "Todd", "lastName": "Phillips", "moviesDirected": ["Joker"]},
+        "releaseDate": "2019-08-31"
+    },
+    {
+        "title": "Mad Max: Fury Road",
+        "description": "In a post-apocalyptic wasteland, Max teams up with a mysterious woman, Furiosa, to try and survive.",
+        "actors": [
+            {"firstName": "Tom", "lastName": "Hardy", "birthday": "1977-09-15"},
+            {"firstName": "Charlize", "lastName": "Theron", "birthday": "1975-08-07"},
+            {"firstName": "Nicholas", "lastName": "Hoult", "birthday": "1989-12-07"}
+        ],
+        "director": {"firstName": "George", "lastName": "Miller", "moviesDirected": ["Mad Max: Fury Road"]},
+        "releaseDate": "2015-05-07"
+    }
+]
+}
