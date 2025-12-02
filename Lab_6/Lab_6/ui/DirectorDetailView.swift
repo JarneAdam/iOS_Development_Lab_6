@@ -15,7 +15,6 @@ struct DirectorDetailView: View {
             VStack {
                 Text("Director: \(director!.firstName) \(director!.lastName)").bold()
                 Divider()
-                
                 Spacer()
                 Divider().overlay(.tint)
                 Text("Movie(s)").fontWeight(.bold)

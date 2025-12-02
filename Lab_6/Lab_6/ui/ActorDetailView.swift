@@ -12,6 +12,20 @@ struct ActorDetailView: View {
     @Environment(MovieDataStore.self) private var dataStore
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Actor: \(actor!.firstName) \(actor!.lastName)").bold().foregroundStyle(.red)
+            Divider().overlay(.tint)
+            Text("Birthday: \(actor!.birthday)")
+            Spacer()
+            Divider().overlay(.tint)
+            Text("Movie(s)").fontWeight(.bold)
+            ForEach(dataStore.getMovies(actor: actor!), id: \.self) { movie in
+                NavigationLink(movie.title, value: Route.movie(movie)).buttonStyle(LinkButtonStyle()).foregroundStyle(.red)
+            }
+            Spacer()
+            Divider().overlay(.tint)
+            Text("Overview navigationStack").fontWeight(.bold)
+            PathView()
+        }
     }
 }
