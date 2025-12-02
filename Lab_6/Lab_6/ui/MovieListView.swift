@@ -25,7 +25,6 @@ struct MovieListView: View {
                             Text("\(movie.description)").italic().lineLimit(2).foregroundColor(.black)
                             //Divider().overlay(.tint)
                         }
-                        
                     }
                 }.navigationDestination(for: Route.self) { route in
                     switch route {
@@ -38,11 +37,9 @@ struct MovieListView: View {
                     }
                 }
             }
-            
         }.task {
             await dataStore.loadData()
             loading = false
         }
     }
-    
 }
